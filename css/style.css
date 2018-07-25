@@ -119,6 +119,7 @@ a img {
 }
 body {
   background: #ddd;
+  background-image: url("/img/bg.jpg");
   font-family: "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
   font-size: 100%;
   color: #817c7c;
@@ -869,6 +870,18 @@ header nav ul li a:hover {
 /* tags&categories layout */
 .all-list-box {
   min-height: 400px;
+}
+.all-list-box ::selection {
+  background: #33a183;
+  color: #fff;
+}
+::-moz-selection {
+  background: #33a183;
+  color: #fff;
+}
+::-webkit-selection {
+  background: #33a183;
+  color: #fff;
 }
 .post,
 .page,
